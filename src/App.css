@@ -1,1 +1,55 @@
 /* Other rules */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin: 25px 0;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+#search {
+  width: 50%;
+  background-color: #cbc6e8;
+  border: none;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 40px;
+  padding: 10px;
+  background-color: #f1f0fa;
+  cursor: pointer;
+}
+
+.line:hover {
+  background-color: #cbc6e8;
+}
+.copy {
+  font-size: 14px;
+}
+
+footer {
+  padding: 50px 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #8579c9;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
